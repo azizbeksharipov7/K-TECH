@@ -1,8 +1,8 @@
 /* RESPONSIVE START */
 @media (max-width:1440px) {
-  .image-caption {
+  /* .image-caption {
     font-size: 17px;
-  }
+  } */
 
 }
 
@@ -13,7 +13,7 @@
   }
 
   .image-caption {
-    padding: 14px 0px;
+    padding: 14px 8px;
     max-width: 50%;
     font-size: 18px;
     line-height: 130%;
@@ -115,7 +115,7 @@
   }
 
   .image-caption {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .problems-container {
@@ -855,7 +855,7 @@ input::placeholder {
 
   .image-caption {
     font-size: 10px;
-    bottom: -15px;
+    bottom: -8px;
   }
 
   .hero {
@@ -937,6 +937,9 @@ margin-right: 15px;
 
   .image-caption {
     font-size: 8px;
+    padding-inline: 4px ;
+    padding-bottom: 10px;
+    
   }
 
   .problems-title {
@@ -1086,7 +1089,7 @@ margin-top: 10px !important;
 
   .image-caption {
     font-size: 7px;
-    bottom: -13px;
+    bottom: -8px;
   }
 
   .btn {
@@ -1375,6 +1378,8 @@ input{
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-inline:2.1px ;
+  padding-block: 8px;
   font-size: 5.5px;
   }
 
