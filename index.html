@@ -31,13 +31,18 @@
                 <a href="#!" class="header-nav_link" data-lang-key="services">Xizmatlar</a>
                 <a href="#!" class="header-nav_link" data-lang-key="contact">Bog'lanish</a>
 
-                <div class="lang">
-                    <img class="lang-img" src="./images/lang.svg" alt="Language" onclick="toggleDropdown()" />
-                    <div class="lang-dropdown">
-                        <a href="#!" onclick="changeLanguage('en')">EN</a>
-                        <a href="#!" onclick="changeLanguage('uz')">UZ</a>
-                    </div>
-                </div>
+             <div class="lang">
+  <img class="lang-img" src="./images/lang.svg" alt="Language" onclick="toggleDropdown()" />
+  <div class="lang-dropdown">
+    <a href="#!" onclick="changeLanguage('en')">
+      <img class="lang-flag" src="./images/us.svg" alt="English" /> EN
+    </a>
+    <a href="#!" onclick="changeLanguage('uz')">
+      <img class="lang-flag" src="./images/uz.svg" alt="Uzbek" /> UZ
+    </a>
+  </div>
+</div>
+
             </nav>
 
             <div class="burger-menu">
@@ -54,38 +59,38 @@
   <main>
     <section class="hero">
       <div class="hero-container">
-        <h1><span class="green">Smart X360</span><br />TOTAL CONTROL OF YOUR BUILDING</h1>
+          <span class="green">Smart X360</span> <br> <h1 data-lang-key="banner_title"> TOTAL CONTROL OF YOUR BUILDING</h1>
 
         <div class="hero-image-wrapper">
-          <img src="./images/banner.png" alt="Building" class="building-img" />
-          <div class="image-caption">
+          <img src="./images/Bannermain.jpg" alt="Building" class="building-img" />
+          <div class="image-caption" data-lang-key="banner_desc">
             Integration of IoT devices and software to monitor, control and optimize all building engineering systems.
           </div>
         </div>
 
         <div class="buttons">
           <button class="btn dark">
-            <p>Request demo</p>
+            <p data-lang-key="banner_button1">Request demo</p>
           </button>
           <button class="btn light">
-            <p>Download info PDF</p>
+            <p data-lang-key="banner_button2">Download info PDF</p>
           </button>
         </div>
       </div>
     </section>
 
     <section class="problems-section">
-      <h2 class="problems-title" style="text-align:center;">Problems that we are solving</h2>
+      <h2 class="problems-title" data-lang-key="problmes_title" style="text-align:center;">Problems that we are solving</h2>
 
       <div class="container">
         <div class="problems-container">
 
           <div class="problems">
-            <div class="problem-item"><span class="cross">✖</span> High energy bills</div>
-            <div class="problem-item"><span class="cross">✖</span> No control over air conditioning and lighting</div>
-            <div class="problem-item"><span class="cross">✖</span> Water and gas leaks – not detected in time</div>
-            <div class="problem-item"><span class="cross">✖</span> Building security not automated</div>
-            <div class="problem-item"><span class="cross">✖</span> Cannot be controlled remotely</div>
+            <div class="problem-item" data-lang-key="problem1"><p>❌ High energy bills</p> </div>
+            <div class="problem-item" data-lang-key="problem2" ><p>❌ No control over air conditioning and lighting </p></div>
+            <div class="problem-item" data-lang-key="problem3" ><p>❌ Water and gas leaks – not detected in time </p></div>
+            <div class="problem-item" data-lang-key="problem4" ><p>❌ Building security not automated </p></div>
+            <div class="problem-item" data-lang-key="problem5" ><p>❌ Cannot be controlled remotely</p></div>
             <div class="vertical-line"></div>
           </div>
 
@@ -107,46 +112,46 @@
           <div class="card">
             <div class="card-content">
               <div class="smart-icon"><img src="./images/sidebar-top.svg" alt=""></div>
-              <h3>Analysis on your current building</h3>
+              <h3 data-lang-key="work_card1" >Analysis on your current building</h3>
             </div>
           </div>
           <div class="card">
             <div class="card-content">
               <div class="smart-icon"><img src="./images/sidebar-top.svg" alt=""></div>
-              <h3>Installation of devices</h3>
-              <p>sensors, controllers, locks, lighting</p>
+              <h3 data-lang-key="work_card2" >Installation of devices</h3>
+              <p data-lang-key="work_card2_desc" >sensors, controllers, locks, lighting</p>
             </div>
           </div>
           <div class="card">
             <div class="card-content">
               <div class="smart-icon"><img src="./images/sidebar-top.svg" alt=""></div>
-              <h3>Connecting to the cloud</h3>
-              <p>all data in a secure server</p>
+              <h3 data-lang-key="work_card3" >Connecting to the cloud</h3>
+              <p data-lang-key="work_card3_desc">all data in a secure server</p>
             </div>
           </div>
           <div class="card">
             <div class="card-content">
               <div class="smart-icon"><img src="./images/sidebar-top.svg" alt=""></div>
-              <h3>Automation</h3>
-              <p>create scenarios: turn on when a person is in the room</p>
+              <h3 data-lang-key="work_card4">Automation</h3>
+              <p data-lang-key="work_card4_desc">create scenarios: turn on when a person is in the room</p>
             </div>
           </div>
           <div class="card">
             <div class="card-content">
               <div class="smart-icon"><img src="./images/sidebar-top.svg" alt=""></div>
-              <h3>Control</h3>
-              <p>access from phone and web</p>
+              <h3 data-lang-key="work_card5">Control</h3>
+              <p data-lang-key="work_card5_desc">access from phone and web</p>
             </div>
           </div>
         </div>
 
         <div class="demo-button">
-          <button>Watch demo video</button>
+          <button data-lang-key="work_button">Watch demo video</button>
         </div>
     </section>
 
     <section class="container features-section-container">
-      <div class="features-title">Features and functions</div>
+      <div class="features-title" data-lang-key="feature_title">Features and functions</div>
       <div class="features-container">
         <div class="features-left-imgs">
           <img src="./images/Rectangle 400.png" alt="Main building" />
@@ -156,22 +161,22 @@
         <div class="features-content">
 
           <div class="features-section">
-            <h3> <img class="features-section-title-img" src="./images/sidebar-top.svg" alt=""> Supported devices:</h3>
+            <h3 > <img class="features-section-title-img" src="./images/sidebar-top.svg" alt=""> Supported devices:</h3>
             <ul>
-              <li>Motion, leakage, CO2, gas sensors</li>
-              <li>Control of curtains, lamps, locks</li>
-              <li>Control of chiller and sockets</li>
+              <li data-lang-key="feature_desc1_desc1">Motion, leakage, CO2, gas sensors</li>
+              <li data-lang-key="feature_desc1_desc2">Control of curtains, lamps, locks</li>
+              <li data-lang-key="feature_desc1_desc3">Control of chiller and sockets</li>
             </ul>
           </div>
 
           <div class="features-section">
             <h3><img class="features-section-title-img" src="./images/sidebar-top.svg" alt=""> Program services:</h3>
             <ul>
-              <li>Web and mobile application for easy access</li>
-              <li>Energy monitoring and reports for analysis</li>
-              <li>Notifications and alarms for improver security</li>
-              <li>User authorization and management</li>
-              <li>Smart automation rules</li>
+              <li data-lang-key="feature_desc2_desc1">Web and mobile application for easy access</li>
+              <li data-lang-key="feature_desc2_desc2">Energy monitoring and reports for analysis</li>
+              <li data-lang-key="feature_desc2_desc3">Notifications and alarms for improver security</li>
+              <li data-lang-key="feature_desc2_desc4">User authorization and management</li>
+              <li data-lang-key="feature_desc2_desc5">Smart automation rules</li>
             </ul>
           </div>
         </div>
@@ -180,7 +185,7 @@
 
      <section class="results-section">
        <div class="container">
-        <h2 class="features-title">Results of implementation in a real building</h2>
+        <h2 class="features-title" data-lang-key="results_title">Results of implementation in a real building</h2>
       
         <div class="results-top">
           <div class="video-block">
@@ -196,7 +201,7 @@
                   <img src="images/Frame energy.svg" alt="check" />
                   <div class="info-badge-desc">
                     <strong>23%</strong>
-                    <span>Reduction of energy consumption by 23%</span>
+                    <span data-lang-key="results_card1">Reduction of energy consumption by 23%</span>
                   </div>
                 </div>
               </div>
@@ -207,7 +212,7 @@
                   <img src="images/Frame check.svg" alt="check" />
                   <div class="info-badge-desc">
                     <strong>+2</strong>
-                    <span>Security: +2 new levels of control</span>
+                    <span data-lang-key="results_card2">Security: +2 new levels of control</span>
                   </div>
                 </div>
               </div>
@@ -218,15 +223,15 @@
             <div class="stats-container">
               <div class="stat">
                 <strong>200 m²</strong>
-                <span>Office</span>
+                <span data-lang-key="results_green_card1">Office</span>
               </div>
               <div class="stat">
                 <strong>150+</strong>
-                <span>Installed: devices</span>
+                <span data-lang-key="results_green_card2">Installed: devices</span>
               </div>
               <div class="stat">
-                <strong>1 year</strong>
-                <span>ROI in</span>
+                <strong data-lang-key="results_green_card_year" >1 year</strong>
+                <span data-lang-key="results_green_card3">ROI in</span>
               </div>
             </div>
             </div>
@@ -241,7 +246,7 @@
 
     <section class="clients">
       <div class="clients-header">
-        <h2 class="features-title clients-title">Our customers</h2>
+        <h2 class="features-title clients-title" data-lang-key="clients_title">Our customers</h2>
         <div class="clients-nav">
           <button class="clients-btn clients-btn--light"><  </button>
           <button class="clients-btn clients-btn--green"> > </button>
@@ -283,23 +288,23 @@
       <div class="container">
         <div class="contact-info">
           <h3 class="contact-hey">Hey...</h3>
-          <h1 class="contact-title">Ready to connect the Smart X360?</h1>
+          <h1 class="contact-title" data-lang-key="contact_title">Ready to connect the Smart X360?</h1>
         </div>
 
         <div class="form-container">
           <div class="form-group">
-            <label for="fio">Name</label>
+            <label for="fio" data-lang-key="name_input">Name</label>
             <input type="text" id="fio" placeholder="Name" />
           </div>
           <div class="form-group">
-            <label for="phone">Phone</label>
+            <label for="phone" data-lang-key="phone_input">Phone</label>
             <input type="tel" id="phone" placeholder="+998" />
           </div>
           <div class="form-group">
-            <label for="company">Company</label>
+            <label for="company" data-lang-key="company_input">Company</label>
             <input type="text" id="company" placeholder="Company name" />
           </div>
-          <button class="contact-demo-btn">Request a demo</button>
+          <button class="contact-demo-btn" data-lang-key="contact_button">Request a demo</button>
         </div>
       </div>
     </section>
@@ -312,7 +317,7 @@
             <div class="logo-title">
               <img class="footer-logo-img" src="./images/logo.svg.svg" alt="smart logo" />
               <div>
-                <p>Control, Control and optimization of all engineering systems in a building through the integration of
+                <p data-lang-key="footer_logo_desc">Control, Control and optimization of all engineering systems in a building through the integration of
                   IoT devices and software</p>
               </div>
               <div class="social-icons">
@@ -324,37 +329,37 @@
             </div>
           </div>
           <div class="footer-column">
-            <h4>Sections</h4>
+            <h4 data-lang-key="footer_sections">Sections</h4>
             <ul>
-              <li>- Main page</li>
-              <li>- Solutions</li>
-              <li>- How it work</li>
-              <li>- What you get</li>
-              <li>- Real case</li>
-              <li>- Testimonials</li>
-              <li>- Call to action</li>
+              <li data-lang-key="footer_sections1">- Main page</li>
+              <li data-lang-key="footer_sections2">- Solutions</li>
+              <li data-lang-key="footer_sections3">- How it work</li>
+              <li data-lang-key="footer_sections4">- What you get</li>
+              <li data-lang-key="footer_sections5">- Real case</li>
+              <li data-lang-key="footer_sections6">- Testimonials</li>
+              <li data-lang-key="footer_sections7">- Call to action</li>
             </ul>
           </div>
           <div class="footer-column">
-            <h4>Services</h4>
+            <h4 data-lang-key="footer_services">Services</h4>
             <ul>
-              <li>- Analysis on your current building</li>
-              <li>- Installation of devices</li>
-              <li>- Connecting to the cloud</li>
-              <li>- Automation</li>
-              <li>- Control</li>
+              <li data-lang-key="footer_services1">- Analysis on your current building</li>
+              <li data-lang-key="footer_services2">- Installation of devices</li>
+              <li data-lang-key="footer_services3">- Connecting to the cloud</li>
+              <li data-lang-key="footer_services4">- Automation</li>
+              <li data-lang-key="footer_services5">- Control</li>
             </ul>
           </div>
           <div class="footer-column">
-            <h4>Link</h4>
-            <p  style="line-height: 12px; width: 120px; margin-bottom: 15px;">Khorezm province, </p>
+            <h4 data-lang-key="footer_link">Link</h4>
+            <p data-lang-key="footer_link1" style="line-height: 12px; width: 120px; margin-bottom: 15px;">Khorezm province, </p>
              <p  style="line-height: 12px; width: 120px; margin-bottom: 15px;">Urganch, </p>
-             <p  style="line-height: 12px; width: 120px; margin-bottom: 15px;"> Peace Street, </p>
-             <p  style="line-height: 12px; width: 120px; margin-bottom: 15px;"> House 6 </p>
+             <p data-lang-key="footer_link2" style="line-height: 12px; width: 120px; margin-bottom: 15px;"> Peace Street, </p>
+             <p data-lang-key="footer_link3"  style="line-height: 12px; width: 120px; margin-bottom: 15px;"> House 6 </p>
              
 
             
-            <p><strong>Phone:</strong> +998 94 239 15 18</p>
+            <p><strong data-lang-key="footer_link4">Phone:</strong> +998 94 239 15 18</p>
             <p><strong>E-mail:</strong> info@gk-tech.uz</p>
           </div>
         </div>

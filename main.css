@@ -162,6 +162,11 @@ background: radial-gradient(67.00% 66.00% at 52% 0%,rgb(2, 153, 133),rgb(4, 136,
     /* margin-right: 70px; */
   }
   
+  .feature_title_bar{
+    display: flex;
+    align-items: center;
+  }
+
   .features-left-imgs img {
     width: 100%;
     border-radius: 10px;
