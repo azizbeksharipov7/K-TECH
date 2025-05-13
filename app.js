@@ -87,6 +87,7 @@ const translations = {
     footer_link2: "Peace Street,",
     footer_link3: "House 6",
     footer_link4: "Phone"
+    
   },
 
   uz: {
