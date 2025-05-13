@@ -101,7 +101,7 @@ margin-block: 40px;
   font-weight: 400;
 }
 
-.solution-name span {
+.solution_spani {
   color: #28c76f;
   font-size: 40px;
   font-weight: 400;
@@ -110,6 +110,9 @@ margin-block: 40px;
 .solution-description {
   margin-top: 10px;
   border: 2px solid #28c76f;
+   /* max-width: 60%; */
+   /* white-space: normal; */
+  /* word-wrap: break-word; */
   padding: 20px 25px;
   color: rgb(27, 47, 69);
   display: inline-block;

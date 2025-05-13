@@ -25,9 +25,11 @@ const translations = {
     problem4: "❌ Building security not automated",
     problem5: "❌ Cannot be controlled remotely",
     solution: "Solution",
-    solution_desc: "✅ Complete control 24/7 from single control panel",
+    solution_desc: "✅ Complete control 24/7 from <br> single control panel",
 
     // for work title
+    how_part: "How ",
+works_part: " works",
     work_card1: "Analysis on your current building",
     work_card2: "Installation of devices",
     work_card2_desc: "sensors, controllers, locks, lighting",
@@ -109,9 +111,12 @@ const translations = {
     problem4: "❌ Binoni xavfsizlik tizimi avtomatlashtirilmagan",
     problem5: "❌ Masofadan turib boshqarib bo‘lmaydi",
     solution: "Yechim",
-    solution_desc: "✅ Yagona boshqaruv paneli orqali 24/7 to‘liq nazorat",
+    solution_desc: "✅ Yagona boshqaruv paneli orqali <br> 24/7 to‘liq nazorat",
 
     //work title uchun
+
+    how_part: "",
+works_part: " qanday ishlaydi",
     work_card1: "Binoyingizning joriy holatini tahlil qilish",
     work_card2: "Qurilmalarni o‘rnatish",
     work_card2_desc: "datchiklar, kontrollerlar, qulf va chiroqlar",
@@ -177,13 +182,26 @@ const translations = {
   },
 };
 
+
+
 // Til va Icon almashtirish
 function changeLanguage(lang) {
   const elements = document.querySelectorAll("[data-lang-key]");
-  elements.forEach((el) => {
-    const key = el.getAttribute("data-lang-key");
+ elements.forEach((el) => {
+  const key = el.getAttribute("data-lang-key");
+
+  // HTML tegi bor elementlar uchun innerHTML ishlatish
+  if (key === "solution_desc" || key.startsWith("footer_") || translations[lang][key].includes("<br>")) {
+    el.innerHTML = translations[lang][key];
+  } else {
     el.textContent = translations[lang][key];
-  });
+  }
+});
+
+
+  
+
+
 
   // Icon almashtirish
   const langIcon = document.querySelector(".lang-img");
