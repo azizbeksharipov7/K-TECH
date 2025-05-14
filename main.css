@@ -363,3 +363,26 @@ background: radial-gradient(67.00% 66.00% at 52% 0%,rgb(2, 153, 133),rgb(4, 136,
   }
   
   
+ /* Parallax umumiy uslubi */
+.parallax {
+  min-height: 500px; /* Balandlikni belgilash */
+  background-attachment: fixed; /* Fon rasmini o'zgartirish */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Results section parallax fon rasmi */
+.results-parallax {
+  background-image: url("images/Bannermain.jpg"); /* Results section foni */
+}
+
+/* Clients section parallax fon rasmi */
+.clients-parallax {
+  background-image: url("/images/Bannermain.jpg"); /* Clients section foni */
+}
+
+/* Contact section parallax fon rasmi */
+.contact-parallax {
+  background-image: url("/images/Bannermain.jpg"); /* Contact section foni */
+}
