@@ -361,5 +361,24 @@ background: radial-gradient(67.00% 66.00% at 52% 0%,rgb(2, 153, 133),rgb(4, 136,
   .fabicon {
     margin-left: 10px;
   }
-  
+
+.parallax-section {
+  background-image: url('./images/Bannermain.jpg');
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.parallax-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
+
   
